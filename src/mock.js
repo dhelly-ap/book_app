@@ -8,10 +8,12 @@ export const data = [
   {
     "id": 1,
     "title": "Колобок",
-    "authors": {
-      "authorName": "Иван",
-      "authorSurname": "Иванов"
-    },
+    "authors": [
+      {
+        "authorName": "Иван",
+        "authorSurname": "Иванов"
+      }
+    ],
     "pagesNum": 50,
     "publisher": "Глубинка",
     "yearPub": 1989,
@@ -22,10 +24,12 @@ export const data = [
   {
     "id": 2,
     "title": "Курочка Ряба",
-    "authors": {
-      "authorName": "Федор",
-      "authorSurname": "Федоров"
-    },
+    "authors": [
+      {
+        "authorName": "Федор",
+        "authorSurname": "Федоров"
+      }
+    ],
     "pagesNum": 55,
     "publisher": "Глубинка New",
     "yearPub": 1992,
@@ -36,10 +40,12 @@ export const data = [
   {
     "id": 3,
     "title": "Репка",
-    "authors": {
-      "authorName": "Петр",
-      "authorSurname": "Петров"
-    },
+    "authors": [
+      {
+        "authorName": "Петр",
+        "authorSurname": "Петров"
+      }
+    ],
     "pagesNum": 60,
     "publisher": "Старина",
     "yearPub": 1950,
@@ -50,10 +56,12 @@ export const data = [
   {
     "id": 4,
     "title": "Три поросенка",
-    "authors": {
-      "authorName": "Семен",
-      "authorSurname": "Семенов"
-    },
+    "authors": [
+      {
+        "authorName": "Семен",
+        "authorSurname": "Семенов"
+      }
+    ],
     "pagesNum": 65,
     "publisher": "Старина и Ко",
     "yearPub": 1960,
@@ -64,14 +72,18 @@ export const data = [
   {
     "id": 5,
     "title": "Маша и медведи",
-    "authors": {
-      "authorName": "Михаил",
-      "authorSurname": "Михайлов",
-      "authorName1": "Мария",
-      "authorSurname2": "Михайлова"
-    },
+    "authors": [
+      {
+        "authorName": "Михаил",
+        "authorSurname": "Михайлов",
+      },
+      {
+        "authorName": "Мария",
+        "authorSurname": "Михайлова"
+      },
+    ],
     "pagesNum": 70,
     "yearPub": 1960,
     "img": bears,
   }
-]
+];
