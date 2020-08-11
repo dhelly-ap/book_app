@@ -13,11 +13,51 @@
     font-style: normal;
     font-stretch: normal;
     letter-spacing: normal;
+    margin: 0 30px;
 }
 
 .form-books {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 2vw;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.button-add {
+    box-sizing: border-box;
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 14px;
+    cursor: pointer;
+}
+
+
+.sort {
+    font-family: "Open Sans Regular", serif;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.sort span:first-child {
+    margin-right: 13px;
+}
+
+.sort-author, .sort-year {
+    position: relative;
+    margin-right: 40px;
+}
+
+.sort-author:after, .sort-year:after{
+    position: absolute;
+    bottom: 3px;
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url('../../svg/arrow_down.svg');
+}
+
+
 

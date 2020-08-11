@@ -14,11 +14,43 @@
     font-stretch: normal;
     letter-spacing: normal;
     border: 1px solid black;
+    border-radius: 5px;
+    flex-basis: 300px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
+    position: relative;
 }
 
 .img {
     width: 150px;
     height: 150px;
     object-fit: cover;
+    border-radius: 5px;
+}
+.book-wrap > div {
+    margin-bottom: 10px;
+}
 
+.buttons {
+    position: absolute;
+    right: 0;
+}
+
+.buttons > div {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.delete {
+    background-image: url("../../svg/delete.svg");
+}
+
+.edit {
+    background-image: url("../../svg/edit.svg");
 }
