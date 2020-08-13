@@ -15,7 +15,7 @@
     letter-spacing: normal;
     border: 1px solid black;
     border-radius: 5px;
-    flex-basis: 300px;
+    width: 330px;
     margin-right: 25px;
     margin-bottom: 25px;
     padding: 10px;
@@ -42,7 +42,9 @@
 
 .authors-li > span{
     margin-right: 7px;
+    display: inline-block;
 }
+
 .subTitle {
     font-family: "Open Sans Semibold", serif;
 }

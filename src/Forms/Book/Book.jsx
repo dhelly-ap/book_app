@@ -16,6 +16,8 @@ export default function Book(props){
         handleDelete,
     } = props;
 
+    const date = new Date(yearSell).toLocaleDateString('ru', {year: 'numeric', month: 'long', day: 'numeric'});
+
     return(
         <div className={'book-wrap'}>
             <div className={'imgButton'}>
@@ -27,8 +29,8 @@ export default function Book(props){
             </div>
             <h2 className={'title'}>{title}</h2>
             <div>
-                <span className={'subTitle'}>{authors.length > 1 ? 'Авторы:' : 'Автор:'}</span>
-                {authors.map((item, key) => (
+                {authors && <span className={'subTitle'}>{authors.length > 1 ? 'Авторы:' : 'Автор:'}</span>}
+                {authors && authors.map((item, key) => (
                     <ul key={key} className={'authors'}>
                         <li className={'authors-li'}>
                             <span>{item.authorName}</span>
@@ -56,7 +58,7 @@ export default function Book(props){
             {yearSell && (
                 <div>
                     <span className={'subTitle'}>Дата выхода в тираж:  </span>
-                    <span>{`${yearSell} г.`}</span>
+                    <span>{date}</span>
                 </div>
             )}
             {ISBN && (

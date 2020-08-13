@@ -10,6 +10,7 @@ export const data = [
     "title": "Колобок",
     "authors": [
       {
+        "authorID": 1,
         "authorName": "Иван",
         "authorSurname": "Иванов"
       }
@@ -17,7 +18,7 @@ export const data = [
     "pagesNum": 50,
     "publisher": "Глубинка",
     "yearPub": 1989,
-    "yearSell": 1990,
+    "yearSell": '2007-01-05',
     "ISBN": "5-9285-0281-8",
     "img": colobok
   },
@@ -26,6 +27,7 @@ export const data = [
     "title": "Курочка Ряба",
     "authors": [
       {
+        "authorID": 1,
         "authorName": "Федор",
         "authorSurname": "Федоров"
       }
@@ -33,8 +35,8 @@ export const data = [
     "pagesNum": 55,
     "publisher": "Глубинка New",
     "yearPub": 1992,
-    "yearSell": 1992,
-    "ISBN": "5-9285-0282-8",
+    "yearSell": '2007-02-05',
+    "ISBN": "5-9285-0281-8",
     "img": ryaba
   },
   {
@@ -42,6 +44,7 @@ export const data = [
     "title": "Репка",
     "authors": [
       {
+        "authorID": 1,
         "authorName": "Петр",
         "authorSurname": "Петров"
       }
@@ -49,8 +52,8 @@ export const data = [
     "pagesNum": 60,
     "publisher": "Старина",
     "yearPub": 1950,
-    "yearSell": 2000,
-    "ISBN": "5-9285-0285-7",
+    "yearSell": '2007-03-05',
+    "ISBN": "5-9285-0281-8",
     "img": repka
   },
   {
@@ -58,6 +61,7 @@ export const data = [
     "title": "Три поросенка",
     "authors": [
       {
+        "authorID": 1,
         "authorName": "Семен",
         "authorSurname": "Семенов"
       }
@@ -65,8 +69,8 @@ export const data = [
     "pagesNum": 65,
     "publisher": "Старина и Ко",
     "yearPub": 1960,
-    "yearSell": 2007,
-    "ISBN": "5-9285-1285-7",
+    "yearSell": '2007-10-07',
+    "ISBN": "5-9285-0281-8",
     "img": pigs
   },
   {
@@ -74,16 +78,19 @@ export const data = [
     "title": "Маша и медведи",
     "authors": [
       {
+        "authorID": 1,
         "authorName": "Михаил",
         "authorSurname": "Михайлов",
       },
       {
+        "authorID": 2,
         "authorName": "Мария",
         "authorSurname": "Михайлова"
       },
     ],
     "pagesNum": 70,
-    "yearPub": 1960,
+    "yearPub": 2007,
+    "yearSell": '2007-12-05',
     "img": bears,
   }
 ];
